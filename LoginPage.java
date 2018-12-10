@@ -24,8 +24,8 @@ public class LoginPage {
 	}
 	
 	public void EnterCredentials() {
-		driver.findElement(username).sendKeys("vkgup12");
-		driver.findElement(password).sendKeys("GupJer@6310");
+		driver.findElement(username).sendKeys("<username>");
+		driver.findElement(password).sendKeys("<password>");
 	}
 	
 	public void LoginAction() {
